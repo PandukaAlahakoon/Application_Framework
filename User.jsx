@@ -1,7 +1,7 @@
 'use strict';
 import React from 'react';
 
-const user = props => {
+const User = props => {
     const {user} = props;
     return <tr>
         <td>{user.id}</td>
