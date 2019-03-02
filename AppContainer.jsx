@@ -34,7 +34,7 @@ export default  class AppContainer extends  Component {
         return <div>
             <h2> hello sano </h2>
             <Users users={this.state.users}/>
-            <Users users={this.state.users}/>
+            <AddUser addUser={ user => this.addUser()}/>
     </div>;
 }
 

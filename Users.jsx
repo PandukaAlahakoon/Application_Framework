@@ -9,7 +9,7 @@ export  default  class Users extends Component {
 
     static  get propTypes(){
         return {
-            users: PropTypes.array()
+            users: PropTypes.array
         }
 
     }
